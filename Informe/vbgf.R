@@ -29,7 +29,7 @@ re <- ranef(m1)
 
 
 ## Leer los datos Subadultos
-Subadulto <- read.csv("C:/localforks/grupal2018/informe/Subadulto.csv", header = FALSE, row.names = NULL)
+Subadulto <- read.csv("Subadulto.csv", header = FALSE, row.names = NULL)
 Subadulto <- as.matrix(Subadulto)
 
 
